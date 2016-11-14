@@ -1,4 +1,5 @@
 **The Idea**
+
 You need to implement a simple Translation Application that translates any text to Russian. Input parameter should be a path to original text. Possible values are D:/folder/original.txt, https://somedomain.com/original.txt or ftp://ftpdomain.com/original.txt.
 To make our life easier let suppose that original text is encoded in UTF-8 encoding.
 Application should start in console mode and wait for input. As soon as we've entered a valid path it should translate the original text to Russian and print to console the original and translated texts. In case of error (text could not be obtained by path provided, cannot connect to specified URL, etc.) it should print a message about that error and ask user to enter another path.
