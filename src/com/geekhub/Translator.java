@@ -10,7 +10,6 @@ import java.io.IOException;
  * Depends on {@link URLSourceProvider} for accessing Yandex Translator API service
  */
 public class Translator {
-    private URLSourceProvider urlSourceProvider;
     /**
      * Yandex Translate API key could be obtained at <a href="http://api.yandex.ru/key/form.xml?service=trnsl">http://api.yandex.ru/key/form.xml?service=trnsl</a>
      * to do that you have to be authorized.
@@ -18,6 +17,8 @@ public class Translator {
     private static final String YANDEX_API_KEY = "{put_your_yandex_translate_api_key_here}";
     private static final String TRANSLATION_DIRECTION = "ru";
 
+    private URLSourceProvider urlSourceProvider;
+    
     public Translator(URLSourceProvider urlSourceProvider) {
         this.urlSourceProvider = urlSourceProvider;
     }
