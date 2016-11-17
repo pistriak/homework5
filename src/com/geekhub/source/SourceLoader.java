@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * SourceLoader should contains all implementations of SourceProviders to be able to load different sources.
+ * SourceLoader should contain all implementations of SourceProviders to be able to load different sources.
  */
 public class SourceLoader {
     private List<SourceProvider> sourceProviders = new ArrayList<>();
