@@ -51,7 +51,7 @@ public class Translator {
      * @param content that was received from Yandex Translate API by invoking prepared URL
      * @return translated text
      */
-    private String parseContent(String content) throws IOException {
+    private String parseContent(String content) {
         //TODO: implement me
         return null;
     }
