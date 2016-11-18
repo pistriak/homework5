@@ -30,7 +30,7 @@ public class Translator {
      * @return translated text
      * @throws IOException
      */
-    public String translate(String original) throws IOException {
+    public String translate(String original) throws TranslateException {
         //TODO: implement me
         return null;
     }
