@@ -41,7 +41,7 @@ public class Translator {
      * @param text to translate
      * @return url for translation specified text
      */
-    private String prepareURL(String text) {
+    private String prepareURL(String text) throws IOException {
         return "https://translate.yandex.net/api/v1.5/tr/translate?key=" + YANDEX_API_KEY + "&text=" + encodeText(text) + "&lang=" + TRANSLATION_DIRECTION;
     }
 
@@ -51,7 +51,7 @@ public class Translator {
      * @param content that was received from Yandex Translate API by invoking prepared URL
      * @return translated text
      */
-    private String parseContent(String content) {
+    private String parseContent(String content) throws IOException {
         //TODO: implement me
         return null;
     }
@@ -62,7 +62,7 @@ public class Translator {
      * @param text to be translated
      * @return encoded text
      */
-    private String encodeText(String text) {
+    private String encodeText(String text) throws IOException {
         //TODO: implement me
         return null;
     }
